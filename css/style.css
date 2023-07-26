@@ -8,7 +8,6 @@ body {
   background-color: var(--brand-background-color);
 }
 
-a,
 ul,
 ol {
   text-decoration: none;
@@ -66,13 +65,16 @@ p {
 }
 .list {
   list-style: none;
+  color: #2e2f42;
 }
 .list-item {
-  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.list-item > .link {
+  color: #2e2f42;
 }
 .list-item > a:focus,
 .list-item > a:hover {
