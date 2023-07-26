@@ -14,15 +14,6 @@ ol {
   color: var(--brand-color);
 }
 
-h2 {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11111;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
 h3 {
   font-size: 20px;
   font-weight: 500;
@@ -30,12 +21,7 @@ h3 {
   letter-spacing: 0.4px;
   color: var(--navyblue, #2e2f42);
 }
-p {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
+
 /* header */
 .header {
 }
@@ -112,7 +98,22 @@ p {
 .section-button:focus {
   background-color: #404bbf;
 }
-
+/* section 2 */
+.list-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.list-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
 /* footer */
 
 /* section filter */
