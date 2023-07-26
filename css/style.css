@@ -12,6 +12,7 @@ a,
 ul,
 ol {
   text-decoration: none;
+  color: var(--brand-color);
 }
 h1 {
   color: var(--white, #fff);
@@ -23,12 +24,10 @@ h1 {
   line-height: 1.07143;
   letter-spacing: 1.12px;
 }
-h3 {
+h2 {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-
   font-size: 36px;
-
   font-weight: 700;
   line-height: 1.11111;
   letter-spacing: 0.72px;
@@ -65,4 +64,13 @@ p {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   color: var(--white, #fff);
 }
-/* section block */
+
+.address-link {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.address-link:active {
+  color: var(--ocean, #404bbf);
+}
