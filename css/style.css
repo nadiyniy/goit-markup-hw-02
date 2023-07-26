@@ -140,12 +140,26 @@ h3 {
 
 /* section filter */
 .filter-button {
+  font-family: 'Roboto', sans-serif;
   color: #4d5ae5;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: #f4f4fd;
+  cursor: pointer;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   color: #fff;
+  background-color: #404bbf;
+}
+.portfolio-list-title {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
