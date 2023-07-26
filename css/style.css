@@ -19,7 +19,7 @@ h3 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
 }
 
 /* header */
@@ -34,7 +34,7 @@ h3 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.header-logo > span {
+.header-logo-studio {
   color: #2e2f42;
 }
 .link {
@@ -114,6 +114,13 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/* section 4 */
+.section-team {
+  background: #f4f4fd;
+}
+.team-list-item {
+  background-color: #fff;
+}
 /* footer */
 .footer {
   background: #2e2f42;
@@ -126,18 +133,19 @@ h3 {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.header-logo > .header-logo-studio {
+/* .header-logo >  */
+.footer-logo-studio {
   color: #f4f4fd;
 }
 
 /* section filter */
 .filter-button {
-  color: var(--iris, #4d5ae5);
+  color: #4d5ae5;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
 }
 .filter-button:hover {
-  color: var(--white, #fff);
+  color: #fff;
 }
