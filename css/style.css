@@ -1,10 +1,10 @@
 :root {
   --brand-color: #434455;
-  --brand-background-color: #fff;
+  --brand-background-color: #ffffff;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
+  color: var(--brand-color);
   background-color: var(--brand-background-color);
 }
 
@@ -46,6 +46,26 @@ p {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/* header */
+.header {
+}
+.header-logo {
+  font-family: Raleway;
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.16667;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-logo > span {
+  color: #2e2f42;
+}
+
+/* main */
+
+/* footer */
+
 /* section filter */
 .filter-button {
   color: var(--iris, #4d5ae5);
